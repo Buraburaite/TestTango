@@ -1,3 +1,22 @@
-<p>
-  player works!
-</p>
+<div id="video-container">
+  <video
+  id="video"
+  class="video-js"
+  preload="auto"
+  autoplay muted
+  poster="assets/Icons/Stop.png"
+  width="100%"
+  onloadstart="this.volume=0.7"
+  src="assets/Border-Collies.mp4">
+  </video>
+  <div id="video-overlay">
+    <div id="doubtitles">
+    </div>
+    <div id="progress-box">
+      <img id="progress-toki" src="assets/Icons/tokiIcon.png">
+      <progress id="progress-bar" value="0"></progress>
+    </div>
+    <div id="player-controls">
+    </div>
+  </div>
+</div>
